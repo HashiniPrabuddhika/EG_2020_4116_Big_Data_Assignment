@@ -15,7 +15,7 @@ Make sure Docker is running, then start Kafka services:
 ```bash
 docker-compose up -d
 ```
-## Run the System (Use 3 Terminals)
+## Run the System Using 3 Terminals
 Terminal 1 – Start Consumer
 ```bash
 python3 consumer.py
