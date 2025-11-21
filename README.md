@@ -1,4 +1,4 @@
-#Project Setup
+# Project Setup
 
 1. Create and activate virtual environment
 ```bash
@@ -9,13 +9,13 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-##Start Kafka
+## Start Kafka
 
 Make sure Docker is running, then start Kafka services:
 ```bash
 docker-compose up -d
 ```
-##Run the System (Use 3 Terminals)
+## Run the System (Use 3 Terminals)
 Terminal 1 – Start Consumer
 ```bash
 python3 consumer.py
